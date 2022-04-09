@@ -1,0 +1,167 @@
+main .pelicula-principal-info {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%);
+    background-position: center center;
+    background-size: cover;
+    margin: 4.25em;
+    padding: 1.25em;
+    border-radius: 20px;
+    border: transparent;
+    box-shadow: #b48fd3dc 0px 5px 15px;
+}
+
+main .pelicula-principal-info .box {
+    margin-bottom: 5.25em;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+main .pelicula-principal-info .informacion-img-peli {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+main .pelicula-principal-info .informacion-img-peli img {
+    width: 300px;
+}
+
+main .informacion-peli {
+    padding-top: 100px;
+}
+
+
+main .pelicula-principal-info .titulo {
+    font-weight: 600;
+    font-size: 3.12em;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+main .pelicula-principal-info .anyo {
+    color: var(--morado);
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 0.4em;
+    text-align: center;
+}
+
+main .pelicula-principal-info .descripcion {
+    font-size: 1em;
+    line-height: 1.75em;
+    margin-bottom: 1.25em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main .pelicula-principal-info .boton {
+    background: rgba(0, 0, 0, .5);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: white;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+main .botones-box {
+    text-align: center;
+}
+
+main .pelicula-principal-info .boton:hover {
+    background: white;
+    color: #000;
+}
+
+main .pelicula-principal-info .boton i {
+    margin-right: 1.25em;
+}
+
+main .peliculas-trailer .contenedor {
+    margin-bottom: 50px;
+}
+
+main .contenedor-titulo-controles {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+main .menu_container {
+    justify-content: center;
+}
+
+main .menu_trailer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0, 0, 0, .50) 100%);
+    background-position: center center;
+    border-radius: .5rem;
+    box-shadow: 0 2px 4px rgba(3, 74, 40, .15);
+    padding: .75rem;
+}
+
+main .button {
+    display: inline-block;
+    background-color: #06c9cfdc;
+    color: #fff;
+    padding: .50rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+main .button:hover {
+    background-color: #06c8cf94;
+}
+
+main .tk-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+/* --- --- ---- Media Queries ---- --- ---*/
+
+@media screen and (max-width: 800px) {
+
+    .pelicula-principal-info {
+        font-size: 14px;
+        background-size: cover;
+    }
+
+    .pelicula-principal-info .descripcion {
+        max-width: 100%;
+    }
+
+    .pelicula-principal-info .titulo {
+        max-width: 100%;
+    }
+
+    .pelicula-principal-info .anyo {
+        max-width: 100%;
+    }
+
+    .peliculas-recomendadas .contenedor-galeria {
+        overflow: visible;
+    }
+
+    .peliculas-recomendadas .contenedor-galeria .galeria .menu_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    iframe {
+        width: 320px;
+        height: 196.25px;
+    }
+
+    .pelicula-principal-info .boton {
+        margin-bottom: 10px;
+    }
+}

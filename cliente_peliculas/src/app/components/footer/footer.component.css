@@ -1,0 +1,89 @@
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+footer .caja-pie {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer .datos-inc {
+    margin-right: 40px;
+}
+
+footer .euro {
+    margin-left: 30px;
+}
+
+footer img {
+    padding-right: 15px;
+}
+
+footer .facebook,
+footer .twitter,
+footer .instagram,
+footer .whatsapp {
+    width: 5%;
+    margin-bottom: 20px;
+    filter: invert(12%) sepia(73%) saturate(3136%) hue-rotate(278deg) brightness(84%) contrast(119%);
+}
+
+.footer-link {
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 175px;
+}
+
+footer .ul-footer1,
+.ul-footer2,
+.ul-footer3,
+.ul-footer4 {
+    text-align: left;
+    display: inline-block;
+}
+
+footer .ul-footer1 {
+    margin-left: 150px;
+}
+
+footer .ul-footer2 {
+    margin-left: 35px;
+}
+
+footer .ul-footer3 {
+    margin-left: 50px;
+}
+
+footer .ul-footer4 {
+    margin-left: 130px;
+}
+
+footer .caja-link {
+    margin-bottom: 50px;
+}
+
+footer .caja-datos-footer {
+    text-align: center;
+}
+
+footer a {
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .caja-principal {
+    padding-top: 10px;
+    border-top: 1px solid white;
+}
+
+footer b {
+    font-size: 1.2em;
+}

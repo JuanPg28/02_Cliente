@@ -1,17 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-
-:root {
-    --morado: #b48fd3dc;
-    --fondo: #141414;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 
 body {
-    background: var(--fondo);
-    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    font-family: Nitti,Courier New,monospace;
 }
+header {
+    background: rgb(176, 217, 235)!important;
+}
+
+main {
+    background: #ed7b49 !important;
+}
+
+
+footer {
+    background: rgb(202, 104, 87 )!important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+

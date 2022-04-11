@@ -1,89 +1,160 @@
-footer {
-    padding: 20px;
-    background-color: black;
-    color: white;
+
+
+footer .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-footer .caja-pie {
-    margin-top: 20px;
+footer .columLogo {
+    padding-top: 80px;
     text-align: center;
 }
 
-footer .datos-inc {
-    margin-right: 40px;
+footer .columOne {
+    margin-right: 50px;
 }
 
-footer .euro {
-    margin-left: 30px;
-}
-
-footer img {
-    padding-right: 15px;
-}
-
-footer .facebook,
-footer .twitter,
-footer .instagram,
-footer .whatsapp {
-    width: 5%;
+footer .columOne h1 {
     margin-bottom: 20px;
-    filter: invert(12%) sepia(73%) saturate(3136%) hue-rotate(278deg) brightness(84%) contrast(119%);
+    font-family: Canela,PF Regal Display Pro,Times New Roman,serif;
+    font-size: 6em;
 }
 
-.footer-link {
-    font-weight: bolder;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 175px;
+footer .columOne #email {
+    margin-top: 0%;
+    padding: 0.75em 0 0.88rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 0 solid #ced4da;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    width: 400px;
 }
 
-footer .ul-footer1,
-.ul-footer2,
-.ul-footer3,
-.ul-footer4 {
-    text-align: left;
-    display: inline-block;
+footer input::placeholder {
+    color: black;
+    font-family: Nitti,Courier New,monospace;
 }
 
-footer .ul-footer1 {
-    margin-left: 150px;
+footer .columOne button{
+    border: transparent;
+    background: transparent;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 1s;
 }
 
-footer .ul-footer2 {
-    margin-left: 35px;
-}
-
-footer .ul-footer3 {
-    margin-left: 50px;
-}
-
-footer .ul-footer4 {
-    margin-left: 130px;
-}
-
-footer .caja-link {
-    margin-bottom: 50px;
-}
-
-footer .caja-datos-footer {
-    text-align: center;
-}
-
-footer a {
-    font-size: 0.9em;
-    font-family: 'Open Sans', sans-serif;
+footer .columOne button:hover {
     color: white;
+}
+
+footer label input {
+    visibility: hidden;
+    display: block;
+    height: 0;
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+footer label span {
+    height: 13px;
+    width: 13px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+footer [type=checkbox]:checked + span {
+    background: black;
+}
+
+footer .columOne span{
+   font-size: 0.8em;
+}
+
+footer .redes-box {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+footer .redes-box h2 {
+    font-family: Canela,PF Regal Display Pro,Times New Roman,serif;
+    font-size: 2.5em;
+}
+
+footer .redes-box i {
+    font-size: 1.5em;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+footer .redes-box i:hover {
+    filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(342deg) brightness(106%) contrast(101%);
+}
+
+footer .columTwo {
+    margin-right: 50px;
+}
+
+footer .columTwo h2, footer .columThree h2{
+    font-family: Canela,PF Regal Display Pro,Times New Roman,serif;
+    font-size: 2.5em;
+}
+
+footer .columTwo a, footer .columThree a {
+
     text-decoration: none;
+    color: black;
+    font-weight: lighter;
+
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
 }
 
-footer a:hover {
-    text-decoration: underline;
+footer .columTwo a:hover, footer .columThree a:hover {
+
+    background-size: 100% 2px
 }
 
-footer .caja-principal {
-    padding-top: 10px;
-    border-top: 1px solid white;
+footer .site-footer {
+    position: relative;
+    left: 0%;
+    opacity: 1;
+    animation: site-footer-box 8s linear infinite;
 }
 
-footer b {
-    font-size: 1.2em;
+footer .site-footer img {
+    width: 1000px;
+}
+
+@keyframes site-footer-box{
+    0%{
+        left: 0;
+        opacity: 1;
+    }
+    50% {
+        opacity: .4;
+    }
+    100%{
+        left: 100vh;
+        opacity: 1;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
 }

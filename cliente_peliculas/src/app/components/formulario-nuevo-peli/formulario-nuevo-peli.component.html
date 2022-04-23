@@ -1,0 +1,14 @@
+<div class="contact-us" id="formulario">
+
+    <form [formGroup]="formulario">
+        
+        <input placeholder="Titulo" type="text" formControlName="titulo">
+        <input placeholder="Sinopsis" type="text" formControlName="sinopsis">
+        <input placeholder="Año" type="text" formControlName="anyo">
+        <input placeholder="Imagen" type="text" formControlName="imagen">
+        <input placeholder="Video" type="text" formControlName="video">
+        <button (click)="crearPelicula()">Crear</button>
+
+    </form>
+
+</div>
